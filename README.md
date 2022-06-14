@@ -6,7 +6,7 @@ git clone https://PallaviKharbanda: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@gith
 
 (For a particular path location, first create a folder and then use cd that folder location and then use git clone command)
 
-use code . to open visual code from terminal
+use code . to open visual code from terminal(To enable this command, open VS app, type Command+shift+P and typr install shell command so that code . is successfully opened from command)
 
 
 # from local to github repository
