@@ -26,16 +26,14 @@ use code . to open visual code from terminal(To enable this command, open VS app
 
 # from local to github repository
 
-git init
+(git pull origin main # For pulling all changes then only do all the commit)
+git remote -v #To check remote url
+
 
 git add <folder1> <folder2> <etc.> #git status, git log to see all versions
   
-git commit -m "Your message about the commit"
-  
-git remote add origin https://github.com/yourUsername/yourRepository.git 
-  
-git push -u origin master
-  
-git push origin master
+git commit -m "Your message about the commit" #for commiting
 
->>>>>>> b58a8783cae55c3904241ce5cf08ba0e00422358
+git push origin main # For pushing the code
+
+
