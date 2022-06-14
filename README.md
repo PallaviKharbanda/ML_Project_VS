@@ -3,8 +3,11 @@
 
 Software Requirements :
 [github account](https://github.com/) 
+
 [git cli](https://git-scm.com/downloads)
+
 [vs code](https://code.visualstudio.com/)
+
 [Heroku Account](heroku.com) 
 
 
@@ -13,9 +16,9 @@ Creating  and  Activating virtual environment
 ```
 conda create -p venv python==3.7 -y # -p to create venv in project folder itself so that we can delete it altogether
 conda activate venv or conda activate venv/
-
-Installing necessary files
 ```
+Installing necessary files
+
 pip install -r requirements.txt
 =======
 
@@ -29,7 +32,7 @@ git clone https://PallaviKharbanda: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@gith
 
 use code . to open visual code from terminal(To enable this command, open VS app, type Command+shift+P and typr install shell command so that code . is successfully opened from command)
 
-
+```
 From local to github repository
 ```
 
