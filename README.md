@@ -45,4 +45,38 @@ git commit -m "Your message about the commit" #for commiting
 git push origin main # For pushing the code
 ```
 
+To set up CI/CD Pipeline in Heroku, we need 
+
+1. HEROKU_EMAIL=pallavi.kharbanda01@gmail.com
+2. HEROKU_API_KEY=6cf8200a-0b0f-4c40-86cc-eb2d2c977fd9
+3. HEROKU_APP_NAME=mlproject-deployment
+
+Build Docker Image
+```
+docker build -t <image_name>:<tagname> .
+```
+< Note: Image name for docker must be lowercase
+
+To list docker image
+```
+docker images
+```
+Run docker image
+
+```
+docker run -p 5000:5000 -e PORT=5000 f8c749e73678 (# Image_ID)
+```
+
+To check running container in docker
+```
+docker ps
+```
+To stop docker container
+```
+docker stop <container_id>
+```
+
+
+
+
 
