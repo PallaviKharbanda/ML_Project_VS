@@ -9,10 +9,12 @@ use code . to open visual code from terminal
 
 # from local to github repository
 
-git init\n
-git add <folder1> <folder2> <etc.>\n
-git commit -m "Your message about the commit"\n
-git remote add origin https://github.com/yourUsername/yourRepository.git \n
-git push -u origin master\n
+git init
+
+git add <folder1> <folder2> <etc.>
+  
+git commit -m "Your message about the commit"
+git remote add origin https://github.com/yourUsername/yourRepository.git 
+git push -u origin master
 git push origin master
 
