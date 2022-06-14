@@ -20,7 +20,8 @@ conda activate venv or conda activate venv/
 ```
 Installing necessary files
 
-```pip install -r requirements.txt
+```
+pip install -r requirements.txt
 ```
 
 Cloning Repository
