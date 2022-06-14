@@ -13,7 +13,7 @@ use code . to open visual code from terminal(To enable this command, open VS app
 
 git init
 
-git add <folder1> <folder2> <etc.> #git status
+git add <folder1> <folder2> <etc.> #git status, git log to see all versions
   
 git commit -m "Your message about the commit"
   
