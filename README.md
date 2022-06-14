@@ -2,6 +2,7 @@
 
 
 Software Requirements :
+
 [github account](https://github.com/) 
 
 [git cli](https://git-scm.com/downloads)
@@ -19,8 +20,8 @@ conda activate venv or conda activate venv/
 ```
 Installing necessary files
 
-pip install -r requirements.txt
-=======
+```pip install -r requirements.txt
+```
 
 Cloning Repository
 ```
@@ -41,6 +42,6 @@ git add <folder1> <folder2> <etc.> #git status, git log to see all versions
 git commit -m "Your message about the commit" #for commiting
 
 git push origin main # For pushing the code
-
+```
 
 
