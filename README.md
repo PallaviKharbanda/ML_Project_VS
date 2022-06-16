@@ -48,7 +48,7 @@ git push origin main # For pushing the code
 To set up CI/CD Pipeline in Heroku, we need 
 
 1. HEROKU_EMAIL=pallavi.kharbanda01@gmail.com
-2. HEROKU_API_KEY=6cf8200a-0b0f-4c40-86cc-eb2d2c977fd9
+2. HEROKU_API_KEY=<>
 3. HEROKU_APP_NAME=mlproject-deployment
 
 Build Docker Image
